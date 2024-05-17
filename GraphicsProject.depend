@@ -883,7 +883,7 @@
 	"vector"
 	"string"
 
-1714925160 source:c:\users\me\desktop\foxit\készjavított\graphics\graphicslib\graphics.cpp
+1714990260 source:c:\users\perpa4\desktop\graphics\graphicslib\graphics.cpp
 	"graphics.hpp"
 	<SDL2/SDL.h>
 	<SDL2/SDL_ttf.h>
@@ -894,11 +894,11 @@
 	"char2.h"
 	"keytbl.h"
 
-1714925160 c:\users\me\desktop\foxit\készjavított\graphics\graphicslib\graphics.hpp
+1714990260 c:\users\perpa4\desktop\graphics\graphicslib\graphics.hpp
 	<string>
 	<vector>
 
-1714925160 c:\users\me\desktop\foxit\készjavított\graphics\include\sdl2\sdl.h
+1714990260 c:\users\perpa4\desktop\graphics\include\sdl2\sdl.h
 	"SDL_main.h"
 	"SDL_stdinc.h"
 	"SDL_assert.h"
@@ -934,12 +934,12 @@
 	"begin_code.h"
 	"close_code.h"
 
-1714925160 c:\users\me\desktop\foxit\készjavított\graphics\include\sdl2\sdl_main.h
+1714990260 c:\users\perpa4\desktop\graphics\include\sdl2\sdl_main.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1714925160 c:\users\me\desktop\foxit\készjavított\graphics\include\sdl2\sdl_stdinc.h
+1714990260 c:\users\perpa4\desktop\graphics\include\sdl2\sdl_stdinc.h
 	"SDL_config.h"
 	<sys/types.h>
 	<stdio.h>
@@ -968,28 +968,28 @@
 	"begin_code.h"
 	"close_code.h"
 
-1714925160 c:\users\me\desktop\foxit\készjavított\graphics\include\sdl2\sdl_config.h
+1714990260 c:\users\perpa4\desktop\graphics\include\sdl2\sdl_config.h
 	"SDL_platform.h"
 	<sdkddkver.h>
 
-1714925160 c:\users\me\desktop\foxit\készjavított\graphics\include\sdl2\sdl_platform.h
+1714990260 c:\users\perpa4\desktop\graphics\include\sdl2\sdl_platform.h
 	"AvailabilityMacros.h"
 	"TargetConditionals.h"
 	<winapifamily.h>
 	"begin_code.h"
 	"close_code.h"
 
-1714925160 c:\users\me\desktop\foxit\készjavított\graphics\include\sdl2\begin_code.h
+1714990260 c:\users\perpa4\desktop\graphics\include\sdl2\begin_code.h
 
-1714925160 c:\users\me\desktop\foxit\készjavított\graphics\include\sdl2\close_code.h
+1714990260 c:\users\perpa4\desktop\graphics\include\sdl2\close_code.h
 
-1714925160 c:\users\me\desktop\foxit\készjavított\graphics\include\sdl2\sdl_assert.h
+1714990260 c:\users\perpa4\desktop\graphics\include\sdl2\sdl_assert.h
 	"SDL_config.h"
 	"begin_code.h"
 	<signal.h>
 	"close_code.h"
 
-1714925160 c:\users\me\desktop\foxit\készjavított\graphics\include\sdl2\sdl_atomic.h
+1714990260 c:\users\perpa4\desktop\graphics\include\sdl2\sdl_atomic.h
 	"SDL_stdinc.h"
 	"SDL_platform.h"
 	"begin_code.h"
@@ -997,7 +997,7 @@
 	<mbarrier.h>
 	"close_code.h"
 
-1714925160 c:\users\me\desktop\foxit\készjavított\graphics\include\sdl2\sdl_audio.h
+1714990260 c:\users\perpa4\desktop\graphics\include\sdl2\sdl_audio.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_endian.h"
@@ -1007,25 +1007,25 @@
 	"begin_code.h"
 	"close_code.h"
 
-1714925160 c:\users\me\desktop\foxit\készjavított\graphics\include\sdl2\sdl_error.h
+1714990260 c:\users\perpa4\desktop\graphics\include\sdl2\sdl_error.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1714925160 c:\users\me\desktop\foxit\készjavított\graphics\include\sdl2\sdl_endian.h
+1714990260 c:\users\perpa4\desktop\graphics\include\sdl2\sdl_endian.h
 	"SDL_stdinc.h"
 	<endian.h>
 	<endian.h>
 	"begin_code.h"
 	"close_code.h"
 
-1714925160 c:\users\me\desktop\foxit\készjavított\graphics\include\sdl2\sdl_mutex.h
+1714990260 c:\users\perpa4\desktop\graphics\include\sdl2\sdl_mutex.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1714925160 c:\users\me\desktop\foxit\készjavított\graphics\include\sdl2\sdl_thread.h
+1714990260 c:\users\perpa4\desktop\graphics\include\sdl2\sdl_thread.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_atomic.h"
@@ -1036,18 +1036,18 @@
 	<stdlib.h>
 	"close_code.h"
 
-1714925160 c:\users\me\desktop\foxit\készjavított\graphics\include\sdl2\sdl_rwops.h
+1714990260 c:\users\perpa4\desktop\graphics\include\sdl2\sdl_rwops.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1714925160 c:\users\me\desktop\foxit\készjavított\graphics\include\sdl2\sdl_clipboard.h
+1714990260 c:\users\perpa4\desktop\graphics\include\sdl2\sdl_clipboard.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1714925160 c:\users\me\desktop\foxit\készjavított\graphics\include\sdl2\sdl_cpuinfo.h
+1714990260 c:\users\perpa4\desktop\graphics\include\sdl2\sdl_cpuinfo.h
 	"SDL_stdinc.h"
 	<intrin.h>
 	<intrin.h>
@@ -1066,7 +1066,7 @@
 	"begin_code.h"
 	"close_code.h"
 
-1714925160 c:\users\me\desktop\foxit\készjavított\graphics\include\sdl2\sdl_events.h
+1714990260 c:\users\perpa4\desktop\graphics\include\sdl2\sdl_events.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_video.h"
@@ -1080,7 +1080,7 @@
 	"begin_code.h"
 	"close_code.h"
 
-1714925160 c:\users\me\desktop\foxit\készjavított\graphics\include\sdl2\sdl_video.h
+1714990260 c:\users\perpa4\desktop\graphics\include\sdl2\sdl_video.h
 	"SDL_stdinc.h"
 	"SDL_pixels.h"
 	"SDL_rect.h"
@@ -1088,13 +1088,13 @@
 	"begin_code.h"
 	"close_code.h"
 
-1714925160 c:\users\me\desktop\foxit\készjavított\graphics\include\sdl2\sdl_pixels.h
+1714990260 c:\users\perpa4\desktop\graphics\include\sdl2\sdl_pixels.h
 	"SDL_stdinc.h"
 	"SDL_endian.h"
 	"begin_code.h"
 	"close_code.h"
 
-1714925160 c:\users\me\desktop\foxit\készjavított\graphics\include\sdl2\sdl_rect.h
+1714990260 c:\users\perpa4\desktop\graphics\include\sdl2\sdl_rect.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_pixels.h"
@@ -1102,7 +1102,7 @@
 	"begin_code.h"
 	"close_code.h"
 
-1714925160 c:\users\me\desktop\foxit\készjavított\graphics\include\sdl2\sdl_surface.h
+1714990260 c:\users\perpa4\desktop\graphics\include\sdl2\sdl_surface.h
 	"SDL_stdinc.h"
 	"SDL_pixels.h"
 	"SDL_rect.h"
@@ -1111,11 +1111,11 @@
 	"begin_code.h"
 	"close_code.h"
 
-1714925160 c:\users\me\desktop\foxit\készjavított\graphics\include\sdl2\sdl_blendmode.h
+1714990260 c:\users\perpa4\desktop\graphics\include\sdl2\sdl_blendmode.h
 	"begin_code.h"
 	"close_code.h"
 
-1714925160 c:\users\me\desktop\foxit\készjavított\graphics\include\sdl2\sdl_keyboard.h
+1714990260 c:\users\perpa4\desktop\graphics\include\sdl2\sdl_keyboard.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_keycode.h"
@@ -1123,27 +1123,27 @@
 	"begin_code.h"
 	"close_code.h"
 
-1714925160 c:\users\me\desktop\foxit\készjavított\graphics\include\sdl2\sdl_keycode.h
+1714990260 c:\users\perpa4\desktop\graphics\include\sdl2\sdl_keycode.h
 	"SDL_stdinc.h"
 	"SDL_scancode.h"
 
-1714925160 c:\users\me\desktop\foxit\készjavított\graphics\include\sdl2\sdl_scancode.h
+1714990260 c:\users\perpa4\desktop\graphics\include\sdl2\sdl_scancode.h
 	"SDL_stdinc.h"
 
-1714925160 c:\users\me\desktop\foxit\készjavított\graphics\include\sdl2\sdl_mouse.h
+1714990260 c:\users\perpa4\desktop\graphics\include\sdl2\sdl_mouse.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_video.h"
 	"begin_code.h"
 	"close_code.h"
 
-1714925160 c:\users\me\desktop\foxit\készjavított\graphics\include\sdl2\sdl_joystick.h
+1714990260 c:\users\perpa4\desktop\graphics\include\sdl2\sdl_joystick.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1714925160 c:\users\me\desktop\foxit\készjavított\graphics\include\sdl2\sdl_gamecontroller.h
+1714990260 c:\users\perpa4\desktop\graphics\include\sdl2\sdl_gamecontroller.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_rwops.h"
@@ -1152,17 +1152,17 @@
 	"begin_code.h"
 	"close_code.h"
 
-1714925160 c:\users\me\desktop\foxit\készjavított\graphics\include\sdl2\sdl_sensor.h
+1714990260 c:\users\perpa4\desktop\graphics\include\sdl2\sdl_sensor.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1714925160 c:\users\me\desktop\foxit\készjavított\graphics\include\sdl2\sdl_quit.h
+1714990260 c:\users\perpa4\desktop\graphics\include\sdl2\sdl_quit.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 
-1714925160 c:\users\me\desktop\foxit\készjavított\graphics\include\sdl2\sdl_gesture.h
+1714990260 c:\users\perpa4\desktop\graphics\include\sdl2\sdl_gesture.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_video.h"
@@ -1170,65 +1170,65 @@
 	"begin_code.h"
 	"close_code.h"
 
-1714925160 c:\users\me\desktop\foxit\készjavított\graphics\include\sdl2\sdl_touch.h
+1714990260 c:\users\perpa4\desktop\graphics\include\sdl2\sdl_touch.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_video.h"
 	"begin_code.h"
 	"close_code.h"
 
-1714925160 c:\users\me\desktop\foxit\készjavított\graphics\include\sdl2\sdl_filesystem.h
+1714990260 c:\users\perpa4\desktop\graphics\include\sdl2\sdl_filesystem.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1714925160 c:\users\me\desktop\foxit\készjavított\graphics\include\sdl2\sdl_haptic.h
+1714990260 c:\users\perpa4\desktop\graphics\include\sdl2\sdl_haptic.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_joystick.h"
 	"begin_code.h"
 	"close_code.h"
 
-1714925160 c:\users\me\desktop\foxit\készjavított\graphics\include\sdl2\sdl_hints.h
+1714990260 c:\users\perpa4\desktop\graphics\include\sdl2\sdl_hints.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1714925160 c:\users\me\desktop\foxit\készjavított\graphics\include\sdl2\sdl_loadso.h
+1714990260 c:\users\perpa4\desktop\graphics\include\sdl2\sdl_loadso.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1714925160 c:\users\me\desktop\foxit\készjavított\graphics\include\sdl2\sdl_log.h
+1714990260 c:\users\perpa4\desktop\graphics\include\sdl2\sdl_log.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1714925160 c:\users\me\desktop\foxit\készjavított\graphics\include\sdl2\sdl_messagebox.h
+1714990260 c:\users\perpa4\desktop\graphics\include\sdl2\sdl_messagebox.h
 	"SDL_stdinc.h"
 	"SDL_video.h"
 	"begin_code.h"
 	"close_code.h"
 
-1714925160 c:\users\me\desktop\foxit\készjavított\graphics\include\sdl2\sdl_metal.h
+1714990260 c:\users\perpa4\desktop\graphics\include\sdl2\sdl_metal.h
 	"SDL_video.h"
 	"begin_code.h"
 	"close_code.h"
 
-1714925160 c:\users\me\desktop\foxit\készjavított\graphics\include\sdl2\sdl_power.h
+1714990260 c:\users\perpa4\desktop\graphics\include\sdl2\sdl_power.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1714925160 c:\users\me\desktop\foxit\készjavított\graphics\include\sdl2\sdl_render.h
+1714990260 c:\users\perpa4\desktop\graphics\include\sdl2\sdl_render.h
 	"SDL_stdinc.h"
 	"SDL_rect.h"
 	"SDL_video.h"
 	"begin_code.h"
 	"close_code.h"
 
-1714925160 c:\users\me\desktop\foxit\készjavított\graphics\include\sdl2\sdl_shape.h
+1714990260 c:\users\perpa4\desktop\graphics\include\sdl2\sdl_shape.h
 	"SDL_stdinc.h"
 	"SDL_pixels.h"
 	"SDL_rect.h"
@@ -1237,7 +1237,7 @@
 	"begin_code.h"
 	"close_code.h"
 
-1714925160 c:\users\me\desktop\foxit\készjavított\graphics\include\sdl2\sdl_system.h
+1714990260 c:\users\perpa4\desktop\graphics\include\sdl2\sdl_system.h
 	"SDL_stdinc.h"
 	"SDL_keyboard.h"
 	"SDL_render.h"
@@ -1245,79 +1245,38 @@
 	"begin_code.h"
 	"close_code.h"
 
-1714925160 c:\users\me\desktop\foxit\készjavított\graphics\include\sdl2\sdl_timer.h
+1714990260 c:\users\perpa4\desktop\graphics\include\sdl2\sdl_timer.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1714925160 c:\users\me\desktop\foxit\készjavított\graphics\include\sdl2\sdl_version.h
+1714990260 c:\users\perpa4\desktop\graphics\include\sdl2\sdl_version.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1714925160 c:\users\me\desktop\foxit\készjavított\graphics\include\sdl2\sdl_locale.h
+1714990260 c:\users\perpa4\desktop\graphics\include\sdl2\sdl_locale.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1714925160 c:\users\me\desktop\foxit\készjavított\graphics\include\sdl2\sdl_misc.h
+1714990260 c:\users\perpa4\desktop\graphics\include\sdl2\sdl_misc.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1714925160 c:\users\me\desktop\foxit\készjavított\graphics\include\sdl2\sdl_ttf.h
+1714990260 c:\users\perpa4\desktop\graphics\include\sdl2\sdl_ttf.h
 	"SDL.h"
 	"begin_code.h"
 	"close_code.h"
 
-1714925160 c:\users\me\desktop\foxit\készjavított\graphics\graphicslib\char2.h
+1714990260 c:\users\perpa4\desktop\graphics\graphicslib\char2.h
 
-1714925160 c:\users\me\desktop\foxit\készjavított\graphics\graphicslib\keytbl.h
+1714990260 c:\users\perpa4\desktop\graphics\graphicslib\keytbl.h
 
-1714925160 source:c:\users\me\desktop\foxit\készjavított\graphics\src\listbox.cpp
-	"ListBox.hpp"
-	"graphics.hpp"
-	"iostream"
-	"vector"
-	"string"
-
-1714934059 c:\users\me\desktop\foxit\készjavított\graphics\include\listbox.hpp
-	"graphics.hpp"
-	"Widget.hpp"
-	"vector"
-	"string"
-
-1714925160 c:\users\me\desktop\foxit\készjavított\graphics\include\graphics.hpp
-	<string>
-	<vector>
-
-1714932775 c:\users\me\desktop\foxit\készjavított\graphics\include\widget.hpp
-	"graphics.hpp"
-	"Widget.hpp"
-	"vector"
-	"string"
-
-1714932804 source:c:\users\me\desktop\foxit\készjavított\graphics\src\spinbox.cpp
-	"SpinBox.hpp"
-	"graphics.hpp"
-	"iostream"
-	"vector"
-	"string"
-
-1714932787 c:\users\me\desktop\foxit\készjavított\graphics\include\spinbox.hpp
-	"graphics.hpp"
-	"Widget.hpp"
-	"vector"
-	"string"
-
-1714932723 source:c:\users\me\desktop\foxit\készjavított\graphics\src\widget.cpp
-	"Widget.hpp"
-	"vector"
-	"string"
-
-1714937669 source:c:\users\me\desktop\foxit\készjavított\graphics\main.cpp
+1715001433 source:c:\users\perpa4\desktop\graphics\main.cpp
 	"graphics.hpp"
 	"vector"
 	"iostream"
@@ -1325,8 +1284,63 @@
 	"Widget.hpp"
 	"SpinBox.hpp"
 	"ListBox.hpp"
+	"Button.hpp"
 
-1714925160 source:c:\users\me\.repos\bead3\graphicslib\graphics.cpp
+1714990260 c:\users\perpa4\desktop\graphics\include\graphics.hpp
+	<string>
+	<vector>
+
+1714990260 c:\users\perpa4\desktop\graphics\include\widget.hpp
+	"graphics.hpp"
+	"Widget.hpp"
+	"vector"
+	"string"
+
+1714990260 c:\users\perpa4\desktop\graphics\include\spinbox.hpp
+	"graphics.hpp"
+	"Widget.hpp"
+	"vector"
+	"string"
+
+1714990260 c:\users\perpa4\desktop\graphics\include\listbox.hpp
+	"graphics.hpp"
+	"Widget.hpp"
+	"vector"
+	"string"
+
+1714990260 source:c:\users\perpa4\desktop\graphics\src\listbox.cpp
+	"ListBox.hpp"
+	"graphics.hpp"
+	"iostream"
+	"vector"
+	"string"
+
+1714990260 source:c:\users\perpa4\desktop\graphics\src\spinbox.cpp
+	"SpinBox.hpp"
+	"graphics.hpp"
+	"iostream"
+	"vector"
+	"string"
+
+1714990260 source:c:\users\perpa4\desktop\graphics\src\widget.cpp
+	"Widget.hpp"
+	"vector"
+	"string"
+
+1715001470 source:c:\users\perpa4\desktop\graphics\src\button.cpp
+	"Button.hpp"
+	"graphics.hpp"
+	"iostream"
+	"vector"
+	"string"
+
+1715001473 c:\users\perpa4\desktop\graphics\include\button.hpp
+	"graphics.hpp"
+	"Widget.hpp"
+	"vector"
+	"string"
+
+1715959020 source:c:\users\me\.repos\bead3\graphicslib\graphics.cpp
 	"graphics.hpp"
 	<SDL2/SDL.h>
 	<SDL2/SDL_ttf.h>
@@ -1337,11 +1351,11 @@
 	"char2.h"
 	"keytbl.h"
 
-1714925160 c:\users\me\.repos\bead3\graphicslib\graphics.hpp
+1715959020 c:\users\me\.repos\bead3\graphicslib\graphics.hpp
 	<string>
 	<vector>
 
-1714925160 c:\users\me\.repos\bead3\include\sdl2\sdl.h
+1715959020 c:\users\me\.repos\bead3\include\sdl2\sdl.h
 	"SDL_main.h"
 	"SDL_stdinc.h"
 	"SDL_assert.h"
@@ -1377,12 +1391,12 @@
 	"begin_code.h"
 	"close_code.h"
 
-1714925160 c:\users\me\.repos\bead3\include\sdl2\sdl_main.h
+1715959020 c:\users\me\.repos\bead3\include\sdl2\sdl_main.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1714925160 c:\users\me\.repos\bead3\include\sdl2\sdl_stdinc.h
+1715959020 c:\users\me\.repos\bead3\include\sdl2\sdl_stdinc.h
 	"SDL_config.h"
 	<sys/types.h>
 	<stdio.h>
@@ -1411,28 +1425,28 @@
 	"begin_code.h"
 	"close_code.h"
 
-1714925160 c:\users\me\.repos\bead3\include\sdl2\sdl_config.h
+1715959020 c:\users\me\.repos\bead3\include\sdl2\sdl_config.h
 	"SDL_platform.h"
 	<sdkddkver.h>
 
-1714925160 c:\users\me\.repos\bead3\include\sdl2\sdl_platform.h
+1715959020 c:\users\me\.repos\bead3\include\sdl2\sdl_platform.h
 	"AvailabilityMacros.h"
 	"TargetConditionals.h"
 	<winapifamily.h>
 	"begin_code.h"
 	"close_code.h"
 
-1714925160 c:\users\me\.repos\bead3\include\sdl2\begin_code.h
+1715959020 c:\users\me\.repos\bead3\include\sdl2\begin_code.h
 
-1714925160 c:\users\me\.repos\bead3\include\sdl2\close_code.h
+1715959020 c:\users\me\.repos\bead3\include\sdl2\close_code.h
 
-1714925160 c:\users\me\.repos\bead3\include\sdl2\sdl_assert.h
+1715959020 c:\users\me\.repos\bead3\include\sdl2\sdl_assert.h
 	"SDL_config.h"
 	"begin_code.h"
 	<signal.h>
 	"close_code.h"
 
-1714925160 c:\users\me\.repos\bead3\include\sdl2\sdl_atomic.h
+1715959020 c:\users\me\.repos\bead3\include\sdl2\sdl_atomic.h
 	"SDL_stdinc.h"
 	"SDL_platform.h"
 	"begin_code.h"
@@ -1440,7 +1454,7 @@
 	<mbarrier.h>
 	"close_code.h"
 
-1714925160 c:\users\me\.repos\bead3\include\sdl2\sdl_audio.h
+1715959020 c:\users\me\.repos\bead3\include\sdl2\sdl_audio.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_endian.h"
@@ -1450,25 +1464,25 @@
 	"begin_code.h"
 	"close_code.h"
 
-1714925160 c:\users\me\.repos\bead3\include\sdl2\sdl_error.h
+1715959020 c:\users\me\.repos\bead3\include\sdl2\sdl_error.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1714925160 c:\users\me\.repos\bead3\include\sdl2\sdl_endian.h
+1715959020 c:\users\me\.repos\bead3\include\sdl2\sdl_endian.h
 	"SDL_stdinc.h"
 	<endian.h>
 	<endian.h>
 	"begin_code.h"
 	"close_code.h"
 
-1714925160 c:\users\me\.repos\bead3\include\sdl2\sdl_mutex.h
+1715959020 c:\users\me\.repos\bead3\include\sdl2\sdl_mutex.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1714925160 c:\users\me\.repos\bead3\include\sdl2\sdl_thread.h
+1715959020 c:\users\me\.repos\bead3\include\sdl2\sdl_thread.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_atomic.h"
@@ -1479,18 +1493,18 @@
 	<stdlib.h>
 	"close_code.h"
 
-1714925160 c:\users\me\.repos\bead3\include\sdl2\sdl_rwops.h
+1715959020 c:\users\me\.repos\bead3\include\sdl2\sdl_rwops.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1714925160 c:\users\me\.repos\bead3\include\sdl2\sdl_clipboard.h
+1715959020 c:\users\me\.repos\bead3\include\sdl2\sdl_clipboard.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1714925160 c:\users\me\.repos\bead3\include\sdl2\sdl_cpuinfo.h
+1715959020 c:\users\me\.repos\bead3\include\sdl2\sdl_cpuinfo.h
 	"SDL_stdinc.h"
 	<intrin.h>
 	<intrin.h>
@@ -1509,7 +1523,7 @@
 	"begin_code.h"
 	"close_code.h"
 
-1714925160 c:\users\me\.repos\bead3\include\sdl2\sdl_events.h
+1715959020 c:\users\me\.repos\bead3\include\sdl2\sdl_events.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_video.h"
@@ -1523,7 +1537,7 @@
 	"begin_code.h"
 	"close_code.h"
 
-1714925160 c:\users\me\.repos\bead3\include\sdl2\sdl_video.h
+1715959020 c:\users\me\.repos\bead3\include\sdl2\sdl_video.h
 	"SDL_stdinc.h"
 	"SDL_pixels.h"
 	"SDL_rect.h"
@@ -1531,13 +1545,13 @@
 	"begin_code.h"
 	"close_code.h"
 
-1714925160 c:\users\me\.repos\bead3\include\sdl2\sdl_pixels.h
+1715959020 c:\users\me\.repos\bead3\include\sdl2\sdl_pixels.h
 	"SDL_stdinc.h"
 	"SDL_endian.h"
 	"begin_code.h"
 	"close_code.h"
 
-1714925160 c:\users\me\.repos\bead3\include\sdl2\sdl_rect.h
+1715959020 c:\users\me\.repos\bead3\include\sdl2\sdl_rect.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_pixels.h"
@@ -1545,7 +1559,7 @@
 	"begin_code.h"
 	"close_code.h"
 
-1714925160 c:\users\me\.repos\bead3\include\sdl2\sdl_surface.h
+1715959020 c:\users\me\.repos\bead3\include\sdl2\sdl_surface.h
 	"SDL_stdinc.h"
 	"SDL_pixels.h"
 	"SDL_rect.h"
@@ -1554,11 +1568,11 @@
 	"begin_code.h"
 	"close_code.h"
 
-1714925160 c:\users\me\.repos\bead3\include\sdl2\sdl_blendmode.h
+1715959020 c:\users\me\.repos\bead3\include\sdl2\sdl_blendmode.h
 	"begin_code.h"
 	"close_code.h"
 
-1714925160 c:\users\me\.repos\bead3\include\sdl2\sdl_keyboard.h
+1715959020 c:\users\me\.repos\bead3\include\sdl2\sdl_keyboard.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_keycode.h"
@@ -1566,27 +1580,27 @@
 	"begin_code.h"
 	"close_code.h"
 
-1714925160 c:\users\me\.repos\bead3\include\sdl2\sdl_keycode.h
+1715959020 c:\users\me\.repos\bead3\include\sdl2\sdl_keycode.h
 	"SDL_stdinc.h"
 	"SDL_scancode.h"
 
-1714925160 c:\users\me\.repos\bead3\include\sdl2\sdl_scancode.h
+1715959020 c:\users\me\.repos\bead3\include\sdl2\sdl_scancode.h
 	"SDL_stdinc.h"
 
-1714925160 c:\users\me\.repos\bead3\include\sdl2\sdl_mouse.h
+1715959020 c:\users\me\.repos\bead3\include\sdl2\sdl_mouse.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_video.h"
 	"begin_code.h"
 	"close_code.h"
 
-1714925160 c:\users\me\.repos\bead3\include\sdl2\sdl_joystick.h
+1715959020 c:\users\me\.repos\bead3\include\sdl2\sdl_joystick.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1714925160 c:\users\me\.repos\bead3\include\sdl2\sdl_gamecontroller.h
+1715959020 c:\users\me\.repos\bead3\include\sdl2\sdl_gamecontroller.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_rwops.h"
@@ -1595,17 +1609,17 @@
 	"begin_code.h"
 	"close_code.h"
 
-1714925160 c:\users\me\.repos\bead3\include\sdl2\sdl_sensor.h
+1715959020 c:\users\me\.repos\bead3\include\sdl2\sdl_sensor.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1714925160 c:\users\me\.repos\bead3\include\sdl2\sdl_quit.h
+1715959020 c:\users\me\.repos\bead3\include\sdl2\sdl_quit.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 
-1714925160 c:\users\me\.repos\bead3\include\sdl2\sdl_gesture.h
+1715959020 c:\users\me\.repos\bead3\include\sdl2\sdl_gesture.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_video.h"
@@ -1613,65 +1627,65 @@
 	"begin_code.h"
 	"close_code.h"
 
-1714925160 c:\users\me\.repos\bead3\include\sdl2\sdl_touch.h
+1715959020 c:\users\me\.repos\bead3\include\sdl2\sdl_touch.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_video.h"
 	"begin_code.h"
 	"close_code.h"
 
-1714925160 c:\users\me\.repos\bead3\include\sdl2\sdl_filesystem.h
+1715959020 c:\users\me\.repos\bead3\include\sdl2\sdl_filesystem.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1714925160 c:\users\me\.repos\bead3\include\sdl2\sdl_haptic.h
+1715959020 c:\users\me\.repos\bead3\include\sdl2\sdl_haptic.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_joystick.h"
 	"begin_code.h"
 	"close_code.h"
 
-1714925160 c:\users\me\.repos\bead3\include\sdl2\sdl_hints.h
+1715959020 c:\users\me\.repos\bead3\include\sdl2\sdl_hints.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1714925160 c:\users\me\.repos\bead3\include\sdl2\sdl_loadso.h
+1715959020 c:\users\me\.repos\bead3\include\sdl2\sdl_loadso.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1714925160 c:\users\me\.repos\bead3\include\sdl2\sdl_log.h
+1715959020 c:\users\me\.repos\bead3\include\sdl2\sdl_log.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1714925160 c:\users\me\.repos\bead3\include\sdl2\sdl_messagebox.h
+1715959020 c:\users\me\.repos\bead3\include\sdl2\sdl_messagebox.h
 	"SDL_stdinc.h"
 	"SDL_video.h"
 	"begin_code.h"
 	"close_code.h"
 
-1714925160 c:\users\me\.repos\bead3\include\sdl2\sdl_metal.h
+1715959020 c:\users\me\.repos\bead3\include\sdl2\sdl_metal.h
 	"SDL_video.h"
 	"begin_code.h"
 	"close_code.h"
 
-1714925160 c:\users\me\.repos\bead3\include\sdl2\sdl_power.h
+1715959020 c:\users\me\.repos\bead3\include\sdl2\sdl_power.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1714925160 c:\users\me\.repos\bead3\include\sdl2\sdl_render.h
+1715959020 c:\users\me\.repos\bead3\include\sdl2\sdl_render.h
 	"SDL_stdinc.h"
 	"SDL_rect.h"
 	"SDL_video.h"
 	"begin_code.h"
 	"close_code.h"
 
-1714925160 c:\users\me\.repos\bead3\include\sdl2\sdl_shape.h
+1715959020 c:\users\me\.repos\bead3\include\sdl2\sdl_shape.h
 	"SDL_stdinc.h"
 	"SDL_pixels.h"
 	"SDL_rect.h"
@@ -1680,7 +1694,7 @@
 	"begin_code.h"
 	"close_code.h"
 
-1714925160 c:\users\me\.repos\bead3\include\sdl2\sdl_system.h
+1715959020 c:\users\me\.repos\bead3\include\sdl2\sdl_system.h
 	"SDL_stdinc.h"
 	"SDL_keyboard.h"
 	"SDL_render.h"
@@ -1688,38 +1702,38 @@
 	"begin_code.h"
 	"close_code.h"
 
-1714925160 c:\users\me\.repos\bead3\include\sdl2\sdl_timer.h
+1715959020 c:\users\me\.repos\bead3\include\sdl2\sdl_timer.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1714925160 c:\users\me\.repos\bead3\include\sdl2\sdl_version.h
+1715959020 c:\users\me\.repos\bead3\include\sdl2\sdl_version.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1714925160 c:\users\me\.repos\bead3\include\sdl2\sdl_locale.h
+1715959020 c:\users\me\.repos\bead3\include\sdl2\sdl_locale.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1714925160 c:\users\me\.repos\bead3\include\sdl2\sdl_misc.h
+1715959020 c:\users\me\.repos\bead3\include\sdl2\sdl_misc.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1714925160 c:\users\me\.repos\bead3\include\sdl2\sdl_ttf.h
+1715959020 c:\users\me\.repos\bead3\include\sdl2\sdl_ttf.h
 	"SDL.h"
 	"begin_code.h"
 	"close_code.h"
 
-1714925160 c:\users\me\.repos\bead3\graphicslib\char2.h
+1715959020 c:\users\me\.repos\bead3\graphicslib\char2.h
 
-1714925160 c:\users\me\.repos\bead3\graphicslib\keytbl.h
+1715959020 c:\users\me\.repos\bead3\graphicslib\keytbl.h
 
-1714937669 source:c:\users\me\.repos\bead3\main.cpp
+1715959020 source:c:\users\me\.repos\bead3\main.cpp
 	"graphics.hpp"
 	"vector"
 	"iostream"
@@ -1727,44 +1741,58 @@
 	"Widget.hpp"
 	"SpinBox.hpp"
 	"ListBox.hpp"
+	"Button.hpp"
 
-1714925160 c:\users\me\.repos\bead3\include\graphics.hpp
+1715959020 c:\users\me\.repos\bead3\include\graphics.hpp
 	<string>
 	<vector>
 
-1714932775 c:\users\me\.repos\bead3\include\widget.hpp
+1715959020 c:\users\me\.repos\bead3\include\widget.hpp
 	"graphics.hpp"
 	"Widget.hpp"
 	"vector"
 	"string"
 
-1714932787 c:\users\me\.repos\bead3\include\spinbox.hpp
+1715959020 c:\users\me\.repos\bead3\include\spinbox.hpp
 	"graphics.hpp"
 	"Widget.hpp"
 	"vector"
 	"string"
 
-1714934059 c:\users\me\.repos\bead3\include\listbox.hpp
+1715959020 c:\users\me\.repos\bead3\include\listbox.hpp
 	"graphics.hpp"
 	"Widget.hpp"
 	"vector"
 	"string"
 
-1714925160 source:c:\users\me\.repos\bead3\src\listbox.cpp
+1715959020 c:\users\me\.repos\bead3\include\button.hpp
+	"graphics.hpp"
+	"Widget.hpp"
+	"vector"
+	"string"
+
+1715959020 source:c:\users\me\.repos\bead3\src\button.cpp
+	"Button.hpp"
+	"graphics.hpp"
+	"iostream"
+	"vector"
+	"string"
+
+1715959020 source:c:\users\me\.repos\bead3\src\listbox.cpp
 	"ListBox.hpp"
 	"graphics.hpp"
 	"iostream"
 	"vector"
 	"string"
 
-1714932804 source:c:\users\me\.repos\bead3\src\spinbox.cpp
+1715959020 source:c:\users\me\.repos\bead3\src\spinbox.cpp
 	"SpinBox.hpp"
 	"graphics.hpp"
 	"iostream"
 	"vector"
 	"string"
 
-1714932723 source:c:\users\me\.repos\bead3\src\widget.cpp
+1715959020 source:c:\users\me\.repos\bead3\src\widget.cpp
 	"Widget.hpp"
 	"vector"
 	"string"

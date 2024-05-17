@@ -2,9 +2,19 @@
 <CodeBlocks_layout_file>
 	<FileVersion major="1" minor="0" />
 	<ActiveTarget name="Debug" />
-	<File name="main.cpp" open="1" top="1" tabpos="1" split="0" active="1" splitpos="0" zoom_1="2" zoom_2="0">
+	<File name="src\SpinBox.cpp" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="2427" topLine="54" />
+			<Cursor1 position="867" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="include\Button.hpp" open="1" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="209" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="main.cpp" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="2" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2505" topLine="70" />
 		</Cursor>
 	</File>
 	<File name="src\Widget.cpp" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -12,29 +22,29 @@
 			<Cursor1 position="229" topLine="0" />
 		</Cursor>
 	</File>
+	<File name="include\ListBox.hpp" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="393" topLine="6" />
+		</Cursor>
+	</File>
+	<File name="src\Button.cpp" open="1" top="1" tabpos="9" split="0" active="1" splitpos="0" zoom_1="1" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="200" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="include\SpinBox.hpp" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="793" topLine="2" />
+		</Cursor>
+	</File>
 	<File name="include\Widget.hpp" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="193" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="src\SpinBox.cpp" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="5248" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="include\SpinBox.hpp" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="917" topLine="2" />
-		</Cursor>
-	</File>
 	<File name="src\ListBox.cpp" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="7175" topLine="134" />
-		</Cursor>
-	</File>
-	<File name="include\ListBox.hpp" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="130" topLine="0" />
+			<Cursor1 position="6648" topLine="44" />
 		</Cursor>
 	</File>
 </CodeBlocks_layout_file>
