@@ -5,7 +5,7 @@
 
 using namespace std;
 
-Widget::Widget(int x, int y, int w, int h, string windowTitle) : x(x), y(y), w(w), h(h), windowTitle(windowTitle) {}
+Widget::Widget(int x, int y, int w, int h) : x(x), y(y), w(w), h(h) {}
 /**<  */
 //Destruktor
 Widget::~Widget() {}

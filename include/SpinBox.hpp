@@ -25,7 +25,7 @@ protected:
 public:
 
     //Konstruktor
-    SpinBox(int x, int y, int w, int h, string windowTitle, int minValue, int maxValue);
+    SpinBox(int x, int y, int w, int h, int minValue, int maxValue);
 
     //Rajzoló
     virtual void Draw();

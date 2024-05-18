@@ -19,7 +19,7 @@ protected:
 public:
 
     //Konstruktor
-    Button(int x, int y, int w, int h, string windowTitle, int textSize, string value);
+    Button(int x, int y, int w, int h, int textSize, string value);
 
     //Rajzoló
     virtual void Draw();

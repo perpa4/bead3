@@ -12,7 +12,7 @@ const int XX = 800;
 const int YY = 800;
 
 ListBox::ListBox(int x, int y, int w, int h, string windowTitle, vector<string> items) : Widget(x, y, w, h, windowTitle),
-items(items), listBoxWidth(200), itemHeight(25), listBoxMargin(25), titleBarThickness(30), isPressedUp(false), isPressedDown(false), isDragging(false),
+items(items), listBoxWidth(200), itemHeight(25), listBoxMargin(25), titleBarThickness(30), isPressedUp(false), isPressedDown(false),
 maxDisplayed(5), selectionIndex(1), buttonWidth(20), buttonHeight(20), scrollStep(10), scrollPos(0), startValue(0), buttonX(x + (w / 2) + (listBoxWidth / 2) - buttonWidth), buttonY(y + listBoxMargin) {}
 
 //Rajzoló
@@ -115,41 +115,6 @@ void ListBox::EventHandler(int mouseX, int mouseY, event ev) {
             if (startValue+maxDisplayed < items.size()) setStartValue(startValue+1);
         }
     }
-
-    //Mozgatás
-    if (ev.type == ev_mouse && ev.button == btn_left) {
-        if (mouseX > x &&
-            mouseX < x + w &&
-            mouseY > (y - titleBarThickness) &&
-            mouseY < y)
-        {
-            cout << "Dragging" << endl;;
-            isDragging = true;
-            deltaX = mouseX - x;
-            deltaY = mouseY - y;
-        }
-    }
-
-    if (isDragging) {
-        int newX = ev.pos_x - deltaX;
-        int newY = ev.pos_y - deltaY;
-
-        //Legcsodálatosabb dolog amit felfedeztem c++-ban
-        newX = max(0, min(newX, XX - w));
-        newY = max(30, min(newY, YY - h));
-
-        x = newX;
-        y = newY;
-
-        buttonX = x + (w / 2) + (listBoxWidth / 2) - buttonWidth;
-        buttonY = y + listBoxMargin;
-
-        for (int i = startValue; i < startValue+maxDisplayed; i++) {
-            itemsY[i] = y + listBoxMargin + (i-startValue)*itemHeight + 2;
-        }
-    }
-
-    if (ev.button == -btn_left) isDragging = false;
 
 
     if (ev.button == -btn_left) {

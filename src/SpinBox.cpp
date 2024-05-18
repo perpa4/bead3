@@ -12,8 +12,8 @@ const int XX = 800;
 const int YY = 800;
 
 //Konstruktor
-SpinBox::SpinBox(int x, int y, int w, int h, string windowTitle, int minValue, int maxValue) : Widget(x, y, w, h, windowTitle), minValue(minValue), maxValue(maxValue), value(minValue), spinBoxWidth(200), spinBoxHeight(50), titleBarThickness(30), buttonWidth(30),
-buttonX(x + (w / 2) + (spinBoxWidth / 2) - buttonWidth), buttonY(buttonY = y + (h / 2) - (spinBoxHeight / 2) + 2), isPressedAdd(false), isPressedSubtract(false), isDragging(false) {}
+SpinBox::SpinBox(int x, int y, int w, int h, int minValue, int maxValue) : Widget(x, y, w, h), minValue(minValue), maxValue(maxValue), value(minValue), spinBoxWidth(200), spinBoxHeight(50), titleBarThickness(30), buttonWidth(30),
+buttonX(x + (w / 2) + (spinBoxWidth / 2) - buttonWidth), buttonY(buttonY = y + (h / 2) - (spinBoxHeight / 2) + 2), isPressedAdd(false), isPressedSubtract(false) {}
 
 //Rajzoló
 void SpinBox::Draw() {
@@ -21,8 +21,6 @@ void SpinBox::Draw() {
 
     //ToolBar
     gout << move_to(x, y - titleBarThickness) << color(255, 255, 255) << box(w, titleBarThickness);
-    //Szöveg
-    gout << move_to(x + 10, y - 25) << color(0, 0, 0) << text(windowTitle);
 
     //Ablak
     gout << move_to(x, y) << color(240,240,240) << box(w,h);
@@ -61,18 +59,6 @@ int SpinBox::setValue(int newValue) {
 
 //Event Handler
 void SpinBox::EventHandler(int mouseX, int mouseY, event ev) {
-    if (ev.type == ev_mouse && ev.button == btn_left) {
-        if (mouseX > x &&
-            mouseX < x + w &&
-            mouseY > (y - titleBarThickness) &&
-            mouseY < y)
-        {
-            cout << "Dragging" << endl;;
-            isDragging = true;
-            deltaX = mouseX - x;
-            deltaY = mouseY - y;
-        }
-    }
 
     //Hozzáadás gombbal
     // Egyesével
@@ -81,23 +67,6 @@ void SpinBox::EventHandler(int mouseX, int mouseY, event ev) {
     // Tízesével
     if (ev.keycode == key_pgup && value + 10 <= maxValue) setValue(value + 10);
     if (ev.keycode == key_pgdn && value - 10 >= minValue) setValue(value - 10);
-
-    if (isDragging) {
-        int newX = ev.pos_x - deltaX;
-        int newY = ev.pos_y - deltaY;
-
-        //Legjobb dolog amit felfedeztem
-        newX = max(0, min(newX, XX - w));
-        newY = max(30, min(newY, YY - h));
-
-        x = newX;
-        y = newY;
-
-        buttonX = x + (w / 2) + (spinBoxWidth / 2) - buttonWidth;
-        buttonY = y + (h / 2) - (spinBoxHeight / 2) + 2;
-    }
-
-    if (ev.button == -btn_left) isDragging = false;
 
     //Hozzáadó
     if (ev.button == btn_left) {

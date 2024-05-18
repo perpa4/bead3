@@ -12,7 +12,7 @@ const int XX = 800;
 const int YY = 800;
 
 //Konstruktor
-Button::Button(int x, int y, int w, int h, string windowTitle, int textSize, string value) : Widget(x, y, w, h, windowTitle), textSize(textSize), value(value), isPressed(false) {}
+Button::Button(int x, int y, int w, int h, int textSize, string value) : Widget(x, y, w, h), textSize(textSize), value(value), isPressed(false) {}
 
 //Rajzoló
 void Button::Draw() {

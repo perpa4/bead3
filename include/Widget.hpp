@@ -13,11 +13,10 @@ using namespace genv;
 class Widget {
 protected:
     int x, y, w, h; //Pozíció - Méret
-    string windowTitle; //Ablak neve
 
 public:
     //Konstruktor
-    Widget(int x, int y, int w, int h, string windowTitle);
+    Widget(int x, int y, int w, int h);
 
     //Destruktor
     virtual ~Widget();
