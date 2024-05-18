@@ -49,12 +49,10 @@
 		</Linker>
 		<Unit filename="graphicslib/graphics.cpp" />
 		<Unit filename="include/Button.hpp" />
-		<Unit filename="include/ListBox.hpp" />
 		<Unit filename="include/SpinBox.hpp" />
 		<Unit filename="include/Widget.hpp" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/Button.cpp" />
-		<Unit filename="src/ListBox.cpp" />
 		<Unit filename="src/SpinBox.cpp" />
 		<Unit filename="src/Widget.cpp" />
 		<Extensions />
