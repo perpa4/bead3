@@ -1,7 +1,6 @@
 #include "graphics.hpp"
 #include "vector"
 #include "iostream"
-#include "fstream"
 #include "math.h"
 
 #include "Widget.hpp"
@@ -73,6 +72,7 @@ bool resetCallback() {
 }
 
 class TicTacToe : public Widget {
+protected:
     vector<vector<Cell>> board;
 
     int x; // x pozicio
@@ -94,8 +94,9 @@ class TicTacToe : public Widget {
     bool inGame;
 
 public:
-    TicTacToe(int x, int y, int w, int h, int boardSize) : Widget(x,y,w,h) , boardSize(boardSize), cellSize(YY/boardSize), currentPlayer('X'), winnerPlayer(0),
+    TicTacToe(int x, int y, int w, int h) : Widget(x,y,w,h) , boardSize(15), cellSize(YY/boardSize), currentPlayer('X'), winnerPlayer(0),
     won(false), full(false), winX(0), winO(0), Selector(new SpinBox(100,150,250,150, 15, 30)), inGame(false) {
+        board.clear();
         for (int i = 0; i < boardSize; ++i) {
             vector<Cell> row;
             for (int j = 0; j < boardSize; ++j) {
@@ -250,6 +251,10 @@ public:
         }
         else {
             Selector->EventHandler(mouseX, mouseY, ev);
+            if (ev.keycode == key_space) {
+                setBoardSize(stoi(Selector->GetValue()));
+                inGame = true;
+            }
         }
     }
 
@@ -263,14 +268,17 @@ public:
             }
         }
     }
-};
 
+    int setBoardSize(int newSize) {
+        boardSize = newSize;
+    }
+};
 
 int main()
 {
     gout.open(XX, YY);
 
-    Widget* T = new TicTacToe(XX/2 - YY/2,0,0,0,20);
+    Widget* T = new TicTacToe(XX/2 - YY/2,0,0,0);
 
     gout << refresh;
     event ev;

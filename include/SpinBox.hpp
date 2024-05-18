@@ -19,8 +19,6 @@ protected:
     int buttonWidth, buttonX, buttonY; //Gomb tulajdonságai
 
     bool isPressedAdd, isPressedSubtract; //Megnyomva van-e
-    int deltaX, deltaY; // Mozgatáshoz delta értékek
-    bool isDragging; // Mozgatás állapota
 
 public:
 

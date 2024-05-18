@@ -19,9 +19,6 @@ buttonX(x + (w / 2) + (spinBoxWidth / 2) - buttonWidth), buttonY(buttonY = y + (
 void SpinBox::Draw() {
     gout << font("LiberationSans-Regular.ttf",15);
 
-    //ToolBar
-    gout << move_to(x, y - titleBarThickness) << color(255, 255, 255) << box(w, titleBarThickness);
-
     //Ablak
     gout << move_to(x, y) << color(240,240,240) << box(w,h);
 
