@@ -18,14 +18,12 @@ Button::Button(int x, int y, int w, int h, int textSize, string value) : Widget(
 void Button::Draw() {
     gout << font("LiberationSans-Regular.ttf",textSize);
     //Gomb
-    gout << move_to(x, y) << color(105, 105, 105) << box(w, h)
-         << move_to(x, y) << color(255, 255, 255) << box(w - 2, h - 3);
-    if (isPressed) gout <<  move_to(x + 2, y + 2) << color(200, 200, 200) << box(w - 4, h - 5);
-    else gout <<  move_to(x + 2, y + 2) << color(240, 240, 240) << box(w - 4, h - 5);
+    if (isPressed) gout << move_to(x, y) << color(21, 44, 55) << box(w, h);
+    else gout <<  move_to(x, y) << color(31, 54, 65) << box(w, h);
 
 
     //Érték
-    gout << move_to(x + w/2 - gout.twidth("Click!")/2, y + h/2 - gout.cascent()/1.5) << color(0,0,0) << text(value);
+    gout << move_to(x + w/2 - gout.twidth(value)/2, y + h/2 - gout.cascent()/1.5) << color(230,239,246) << text(value);
 }
 
 //Event Handler
@@ -38,8 +36,6 @@ void Button::EventHandler(int mouseX, int mouseY, event ev) {
             mouseY < y + h)
         {
             isPressed = true;
-            cout << "Touch" << endl;;
-            value = "str";
         }
     }
     if (ev.button == -btn_left) {

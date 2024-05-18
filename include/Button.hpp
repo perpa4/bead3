@@ -12,8 +12,8 @@ using namespace genv;
 
 class Button : public Widget {
 protected:
-    string value;
     int textSize;
+    string value;
     bool isPressed;
 
 public:
