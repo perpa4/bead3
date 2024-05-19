@@ -1,6 +1,5 @@
 #include "SpinBox.hpp"
 #include "graphics.hpp"
-#include "iostream"
 
 #include "vector"
 #include "string"
@@ -73,7 +72,6 @@ void SpinBox::EventHandler(int mouseX, int mouseY, event ev) {
             mouseY < buttonY + (spinBoxHeight / 2))
         {
             isPressedAdd = true;
-            cout << "Touch" << endl;;
             if (value+1 <= maxValue) setValue(value+1);
         }
         if (mouseX > buttonX &&
@@ -82,7 +80,6 @@ void SpinBox::EventHandler(int mouseX, int mouseY, event ev) {
             mouseY < buttonY + spinBoxHeight)
         {
             isPressedSubtract = true;
-            cout << "Touch" << endl;;
             if (value-1 >= minValue) setValue(value-1);
         }
     }
