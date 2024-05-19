@@ -74,7 +74,44 @@ void TicTacToe::Draw() {
             gout << move_to(200 - gout.twidth("[SPACE] for rematch!")/2,YY/2 + 150 + gout.cascent()) << color(230,239,246) << text("[SPACE] for rematch!");
         }
         else {
-            gout << move_to(123,YY/2 + gout.cascent()/1.3) << color(230,239,246) << text("TURN ") << text(currentPlayer);
+            gout << font("LiberationSans-Regular.ttf",33, true);
+            gout << move_to(120,YY/2 + gout.cascent()) << color(230,239,246) << text("TURN ");
+            int margin = 7;
+            int thickness = 10;
+
+            int iX = 200;
+            int iY = YY/2;
+            int iS = 100;
+
+            if (currentPlayer == 'X') {
+                //X
+                int margin = iS / 5;
+                int thickness = iS / 5;
+
+                gout << color(157, 204, 210);
+
+                for (int i = 0; i < thickness; ++i) {
+                    gout << move_to(iX + i + margin, iY + margin) << line_to(iX + iS - thickness - margin + i, iY + iS - margin);
+                    gout << move_to(iX + i + margin, iY + iS - margin) << line_to(iX + iS - thickness - margin + i, iY + margin);
+                }
+            } else if (currentPlayer == 'O') {
+                //O
+                int margin = iS / 5;
+                int radius = (iS - 2 * margin) / 2;
+                int centerX = iX + iS / 2;
+                int centerY = iY + iS / 2;
+                int thickness = iS / 8;
+
+                for (int i = 0; i < thickness; ++i) {
+                    for (double j = 0; j <= 360; j += 0.2) {
+                        double angle = j * M_PI / 180;
+                        int endX = centerX + (radius - i) * cos(angle);
+                        int endY = centerY + (radius - i) * sin(angle);
+                        gout << move_to(endX, endY) << color(255, 135, 85) << dot;
+                    }
+                }
+            }
+
             //Reset
         }
     }
